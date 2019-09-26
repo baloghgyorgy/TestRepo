@@ -7,7 +7,7 @@ module.exports = function babelConfig(api) {
         rootPathSuffix: 'src',
         rootPathPrefix: '~',
       },
-    ], 
+    ],  
   ];
   const presets = ['module:metro-react-native-babel-preset'];
   api.cache(true);
